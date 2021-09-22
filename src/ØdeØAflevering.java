@@ -16,11 +16,12 @@ public class ØdeØAflevering {
             System.out.println(option);
         }
 //Get 10 inputs from user
-        System.out.println("Type the number of your choice: ");
+
 
         for (int i = 1; i <= 10; i++) {
+            System.out.println("Type the number of your choice: ");
             int userInputs = scanner.nextInt();
-            System.out.println(i);
+            System.out.println(i + ". Answer\n----------------------------------------------------------");
 
             optionsIndex[userInputs-1] ++;
 
